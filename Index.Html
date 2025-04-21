@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo Pro 2.0</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    .form-section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    .form-section h2 {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .contact a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007bff;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      header img {
+        width: 80px;
+      }
+      .form-section {
+        padding: 15px;
+      }
+      button {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/120x120.png?text=CP" alt="Currículo Pro Logo">
+    <h1>Currículo Pro 2.0</h1>
+    <p>Criação e análise de currículos profissionais, modelos personalizados, carta de apresentação e muito mais.</p>
+  </header>
+
+  <section class="form-section">
+    <h2>Preencha para criar seu currículo</h2>
+    <form action="https://formsubmit.co/gilbertomsouza29@gmail.com" method="POST">
+      <label>Nome completo:
+        <input type="text" name="Nome" required />
+      </label>
+      <label>Email:
+        <input type="email" name="Email" required />
+      </label>
+      <label>Telefone:
+        <input type="text" name="Telefone" />
+      </label>
+      <label>Resumo profissional:
+        <textarea name="Resumo Profissional" rows="4"></textarea>
+      </label>
+      <label>Experiências anteriores:
+        <textarea name="Experiências" rows="4"></textarea>
+      </label>
+      <label>Formação acadêmica:
+        <textarea name="Formação" rows="4"></textarea>
+      </label>
+      <label>Cursos e habilidades:
+        <textarea name="Cursos e Habilidades" rows="4"></textarea>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <div class="contact">
+    <h3>Fale com a gente</h3>
+    <a href="https://wa.me/5527996163425" target="_blank">WhatsApp</a>
+    <a href="mailto:gilbertomsouza29@gmail.com">E-mail</a>
+  </div>
+
+</body>
+</html>
